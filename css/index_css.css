@@ -1,0 +1,31 @@
+header{
+text-align:center;
+margin-width:100%;
+background-color:rgb(85, 206, 151);}
+
+tr:nth-child(odd){
+	background:##c7d57e;
+	
+}
+tr:nth-child(even){
+	background:##c7d57e;
+	
+}
+section{
+display:block;
+}
+table{
+display:inline-block;
+padding-left:40%;}
+td{
+	color:#06425C;
+	border:solid blue;
+	text-shadow:.5px .35px;
+}
+a{
+font-family:cursive;
+text-decoration:none;}
+th{
+font-size: xx-large;
+}
+mar
