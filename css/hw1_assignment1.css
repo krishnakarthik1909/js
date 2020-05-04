@@ -1,0 +1,35 @@
+header{
+	background-color:darkgrey;
+	
+}
+h1{
+	font-size:300%;
+	text-transform:uppercase;
+	text-align:center;
+	color:white
+}
+a{
+	color:black;
+	background-color: #c8c5c5;
+	font-size:125%;
+}
+section{
+	background-color:#838383;
+	font-weight:100;
+}
+h2{
+	font-size:200%;
+	color:darkblue;
+	text-transform:uppercase;
+	font-weight:900;
+}
+p{
+	font-size:125%;
+	font-weight:100;
+}
+aside{
+	display:none;
+}
+th{
+	font-weight:900;
+}

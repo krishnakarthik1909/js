@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="UTF-8">
+	<title>Address</title>
+	<script src="js/assignment_2_js.js"></script>
+</head>
+
+<body>
+	<h1>Final project</h1>
+	<p>Add the js such that when u click sma eaddress checkbox, the address is copied.</p>
+	<form>
+		<fieldset>
+		  <legend>Shipping adress</legend>
+		  <label for='name'>Name</label>
+		  <input type="text" name='name' id="shippingName"><br/>
+		  <label for='zip'>Zip</label>
+		  <input typr='text' name='zip' id='shippingZip' pattern=[0-9]{6}><br/>
+		</fieldset>
+	<label for='same'>Is billing address same</label>
+	<input type='checkbox' name:'same' id='same' onchange=billingFunction()> 
+		<fieldset>
+			<legend>Billing Address</legend>
+			<label for='billname'>Name</label>
+			<input type="text" name=billname id='billingName'><br/>
+			<label for='billzip'>Zip</label>
+			<input type='text' pattern=[0-9]{6} name='billZip' id=billingZip></br>
+		</fieldset>
+	<input type='submit' value='click to submit'>
+	</form>
+</body>
+</html>

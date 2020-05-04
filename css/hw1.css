@@ -1,0 +1,108 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  padding:2vh;
+}
+header{
+  background-image: url(https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+  height:30vh;
+}
+header h1{
+  color:#ffffff;
+  text-transform: uppercase;
+  text-align:center;
+  padding-top: 40px;
+  margin-bottom: 42px;
+}
+nav a{
+  display: inline-block;
+  width:12%;
+  margin-left:10%;
+  height:35px;
+  line-height:30px;
+  font-weight: bold;
+  background:rgba(255,255,255,0.3);
+  text-decoration: none;
+  font size:150%;
+  color:#000000;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 4px;
+}
+.active{
+  background:rgba(255, 255, 255, 1);
+}
+main{
+  display:flex;
+}
+aside{
+  background-color:#767612;
+  width:15%;
+  height:68vh;
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 200%;
+  margin-left: 5px;
+}
+aside img{
+  display:block;
+  width:150px;
+  border:2px solid black;
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+section{
+  width:80%;
+  font-size: 110%;
+  padding-left: 25px;
+}
+section p{
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+ul li{
+  margin-left: 19px;
+}
+table{
+  margin-left: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+tr{
+  display: flex;
+  height: 50px;
+  line-height: 40px;
+}
+td,th{
+  width:200px;
+  border: 2px solid white;
+}
+th{
+  background-color: 	#9ACD32;
+  background-image: -webkit-linear-gradient(62deg,#6f6f6f 0%,#9ACD32 100%);
+  border-bottom: 2px solid #339933;
+  border-radius: 6px 6px 0 0;
+}
+th:first-child ,tr td:first-child{
+  text-align: left;
+  width: 500px;
+  padding:5px;
+}
+td{
+  background-color: #90EE90;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+    opacity: 0.6;
+}
+tr:hover td{
+  opacity: 1;
+  font-weight: bold;
+  font-size: 100%;
+  line-height: 50px;
+}
